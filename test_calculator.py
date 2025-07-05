@@ -27,4 +27,4 @@ def test_divide_by_zero():
 
 # This test will FAIL - the function returns a + b but test expects a - b
 def test_add_bug():
-    assert add(5, 3) == 2  # This should be 8, but we're testing for 2
+    assert add(5, 3) == 8  # This should be 8, but we're testing for 2
